@@ -1,0 +1,19 @@
+# node_modules は重いので Git 管理しない
+node_modules/
+
+# VSCode の設定ファイル
+.vscode/
+
+# 出力ビルドファイル（TypeScript など）
+dist/
+build/
+
+# OS特有の不要ファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数などの秘密ファイル
+.env
+
+node_modules/
+./dist
