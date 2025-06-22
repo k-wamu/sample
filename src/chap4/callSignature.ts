@@ -58,4 +58,6 @@ const add: BinaryFunc = (left, right) => left + right;
 
 //BinaryFunc <: UnaryFunc
 const bin: BinaryFunc = subDouble;
-console.log(bin(2, 3));
+//The first argument is assigned to args, and the remaining arguments are descarded.
+console.log(bin(2, 3)); 
+
